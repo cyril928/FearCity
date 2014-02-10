@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="https://140.112.29.231/svn/FearCity"
+   name=""
+   revision="116"
+   last-author="oscar"
+   uuid="481fef35-9177-485b-8dca-3c79c3f024b9"
+   url="https://140.112.29.231/svn/FearCity/branches/dbPlugin/src/java/org"
+   committed-rev="116"
+   kind="dir"
+   committed-date="2011-11-19T12:27:58.391862Z"/>
+<entry
+   name="jivesoftware"
+   kind="dir"/>
+</wc-entries>

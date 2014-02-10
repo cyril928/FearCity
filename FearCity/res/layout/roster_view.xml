@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+  
+  <TextView android:id="@+id/title_roster"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title_online_roster"
+        android:visibility="gone"
+        android:background="#666"
+        android:textColor="#fff"
+    />
+  
+  <ListView android:id="@+id/online_roster"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stackFromBottom="true"
+        android:layout_weight="2"
+    />
+  
+</LinearLayout>

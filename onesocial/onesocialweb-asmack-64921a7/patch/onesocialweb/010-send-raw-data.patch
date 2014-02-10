@@ -1,0 +1,58 @@
+Index: org/jivesoftware/smack/PacketWriter.java
+===================================================================
+--- org/jivesoftware/smack/PacketWriter.java	(revision 11550)
++++ org/jivesoftware/smack/PacketWriter.java	(working copy)
+@@ -118,6 +118,26 @@
+             processListeners(packet);
+         }
+     }
++    
++	/**
++	 * Sends the raw string to the server (we expose this to manage keep alive externaly)
++	 * 
++	 * @param data
++	 *            the string to send.
++	 */
++	public void sendRawData(String data) {
++		if (!done) {
++			synchronized (writer) {
++				// Send raw data
++				try {
++					writer.write(" ");
++					writer.flush();
++				} catch (Exception e) {
++					// Do nothing
++				}
++			}
++		}
++	}
+ 
+     /**
+      * Registers a packet listener with this writer. The listener will be
+Index: org/jivesoftware/smack/XMPPConnection.java
+===================================================================
+--- org/jivesoftware/smack/XMPPConnection.java	(revision 11550)
++++ org/jivesoftware/smack/XMPPConnection.java	(working copy)
+@@ -733,6 +733,22 @@
+         }
+         packetWriter.sendPacket(packet);
+     }
++    
++    /**
++     * Sends the specified string to the server. Should be used with caution as it risks
++     * breaking the connection. We expose this only to manage keep alive externaly.
++     *
++     * @param data the data to send.
++     */
++    public void sendRawData(String data) {
++        if (!isConnected()) {
++            throw new IllegalStateException("Not connected to server.");
++        }
++        if (data == null) {
++            throw new NullPointerException("Packet is null.");
++        }
++        packetWriter.sendRawData(data);
++    }
+ 
+     /**
+      * Registers a packet listener with this connection. A packet filter determines

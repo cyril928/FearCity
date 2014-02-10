@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+ 
+    <item android:id="@+id/logout"
+          android:icon="@android:drawable/ic_menu_view"
+          android:title="@string/logout" 
+      
+          />   
+       <item android:id="@+id/updateMyLocation"
+          android:icon="@android:drawable/ic_menu_mylocation"
+          android:title="@string/updateMyLocation"
+          />  
+       
+      
+    <item android:id="@+id/roster_list"
+          android:icon="@android:drawable/ic_menu_view"
+          android:title="@string/roster_list"
+           /> 
+	<item android:id="@+id/stop_locationing"
+          android:icon="@android:drawable/ic_delete"
+          android:title="@string/stop_locationing"
+           /> 
+    <item android:id="@+id/clear_account"
+          android:icon="@android:drawable/ic_menu_view"
+          android:title="@string/clear_account"
+           />
+    
+
+</menu>

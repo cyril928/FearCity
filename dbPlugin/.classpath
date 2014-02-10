@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src/java"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="D:/openfire_and_android_something/openfire_src/build/lib/merge/tinder.jar"/>
+	<classpathentry kind="lib" path="D:/openfire_and_android_something/openfire_src/build/lib/merge/slf4j-api.jar"/>
+	<classpathentry kind="lib" path="D:/openfire_and_android_something/openfire_src/build/lib/merge/dom4j.jar"/>
+	<classpathentry kind="lib" path="D:/openfire_and_android_something/openfire_src/src/plugins/dbPlugin/mysql-connector-java-5.1.17-bin.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/openfire"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="tw.edu.ntu.csie.srlab"
+      android:versionCode="1"
+      android:versionName="1.0">
+<uses-permission android:name="android.permission.READ_PHONE_STATE" />
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.CALL_PHONE"></uses-permission>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CONTROL_LOCATION_UPDATES" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_UPDATES" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+   <uses-permission android:name="android.permission.VIBRATE" />
+      <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <application android:name="tw.edu.ntu.csie.srlab.AppGlobalVariable" android:icon="@drawable/f" android:label="@string/app_name"   
+  android:theme="@style/Theme.fearcity">
+  
+<uses-library android:name="com.google.android.maps" />
+
+        <service  android:name=".service.ConnectService"></service> 
+         <service android:name=".service.SkyhookLocationService"></service>
+         
+        <activity android:name=".activity.LoginActivity" 
+        		  android:label="@string/app_name">
+        	 <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+             </intent-filter>     
+        </activity>
+             <activity android:name=".activity.TrackingmapActicity"  ></activity>
+           <activity android:name=".activity.Emergencycalltab"  ></activity>
+                <activity android:name=".activity.UserInfoActivity"  ></activity>
+                
+         <activity android:name=".activity.GroupDetailActivity"  ></activity>
+       <activity android:name=".activity.GroupDetailActivity"  ></activity>
+          <activity android:name=".activity.GroupInfoActivity"></activity>
+           <activity android:name=".activity.GroupUserActivity"></activity>
+           <activity android:theme="@android:style/Theme.Dialog" android:name="SMSReceiver" ></activity>
+      <activity android:name=".activity.RegisterActivity"></activity>
+        <activity  android:theme="@android:style/Theme.Dialog"   android:name=".activity.TimeActivity"></activity>
+        <activity android:name=".activity.RegisterActivity"></activity>
+    <activity android:name=".activity.CreateGroupActivity" 				android:windowSoftInputMode="stateHidden|adjustResize"></activity>
+       <activity android:name=".activity.ShowMemberMaps"     > </activity>
+  		<activity android:name=".activity.XMPPRosterList"></activity>
+    <activity android:name=".activity.ChatFormActivity"></activity>
+        <activity android:name=".activity.GroupListActivity"></activity>
+        
+	 <activity android:name=".activity.EmergencycallActivity" android:launchMode="singleInstance" > </activity>
+          	 
+    </application>
+</manifest>

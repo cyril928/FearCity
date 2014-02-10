@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <FrameLayout android:layout_width="fill_parent"
+ 
+        android:layout_height="fill_parent"
+ 
+        xmlns:android="http://schemas.android.com/apk/res/android"
+ 
+        android:id="@+id/frameLayout">
+<SlidingDrawer android:id="@+id/slidingDrawer1"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:topOffset="dip" android:handle="@+id/handle"  
+		android:content="@+id/content">
+		<LinearLayout android:text="Handle" android:layout_height="50dip" 
+		android:background="@drawable/notify"
+		android:gravity="center"
+			android:layout_width="fill_parent" android:id="@+id/handle">
+ 
+			<TextView android:text="@string/Notification" 
+			
+			android:textColor="@android:color/white"
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content"
+				 android:textAppearance="?android:attr/textAppearanceMedium" />
+			</LinearLayout>
+		<LinearLayout android:id="@+id/content"
+			android:layout_width="fill_parent" android:layout_height="fill_parent"
+			android:orientation="vertical"  
+		 android:background="@android:color/white">
+     <ListView android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" 
+        android:cacheColorHint="#00000000"  
+           android:divider="@color/green"
+        android:dividerHeight="1dip"
+        android:id="@+id/list1" />
+
+		</LinearLayout>
+	</SlidingDrawer>
+	</FrameLayout>

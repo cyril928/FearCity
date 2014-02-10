@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical" >
+  
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:orientation="horizontal"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+            >
+        <EditText android:id="@+id/register_id"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:singleLine="true"
+                  android:textSize="16sp"
+                  android:autoText="false"
+                  android:minWidth="250dp"
+                  android:capitalize="none"
+                  android:scrollHorizontally="true"
+                  android:hint="enter userid"
+                  />
+    </LinearLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:orientation="horizontal"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+            >
+        <EditText android:id="@+id/register_password"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:singleLine="true"
+                  android:password="true"
+                  android:textSize="16sp"
+                  android:autoText="false"
+                  android:minWidth="250dp"
+                  android:capitalize="none"
+                  android:scrollHorizontally="true"
+                  android:hint="enter password"
+                  />
+    </LinearLayout>
+     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:orientation="horizontal"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+            >
+        <EditText android:id="@+id/confirm_password"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:singleLine="true"
+                  android:password="true"
+                  android:textSize="16sp"
+                  android:autoText="false"
+                  android:minWidth="250dp"
+                  android:capitalize="none"
+                  android:scrollHorizontally="true"
+                  android:hint="confirm password"
+                  />
+    </LinearLayout> 
+ 	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:orientation="horizontal"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+            >
+        <EditText android:id="@+id/register_email"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:singleLine="true"
+                  android:password="true"
+                  android:textSize="16sp"
+                  android:autoText="false"
+                  android:minWidth="250dp"
+                  android:capitalize="none"
+                  android:scrollHorizontally="true"
+                  android:hint="enter email"
+                  />
+    </LinearLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:orientation="horizontal"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+            >
+        <EditText android:id="@+id/register_phone"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:singleLine="true"
+                  android:password="true"
+                  android:textSize="16sp"
+                  android:autoText="false"
+                  android:minWidth="250dp"
+                  android:capitalize="none"
+                  android:scrollHorizontally="true"
+                  android:hint="enter phone number"
+                  />
+    </LinearLayout>
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:orientation="horizontal"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_alignParentBottom="true"
+    			  android:gravity="bottom|center"
+            >
+    	<Button android:id="@+id/register"
+            android:layout_width="120px"
+            android:layout_height="fill_parent"
+            android:text="Register">
+       		<requestFocus/>
+    	</Button>
+   		<Button android:id="@+id/resume"
+            android:layout_width="120px"
+            android:layout_height="fill_parent"
+            android:text="Resume">
+        	<requestFocus/>
+    	</Button>
+    </LinearLayout>
+</LinearLayout>

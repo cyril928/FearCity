@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="https://140.112.29.231/svn/FearCity"
+   name=""
+   revision="116"
+   last-author="oscar"
+   uuid="481fef35-9177-485b-8dca-3c79c3f024b9"
+   url="https://140.112.29.231/svn/FearCity/branches/dbPlugin"
+   committed-rev="116"
+   kind="dir"
+   committed-date="2011-11-19T12:27:58.391862Z"/>
+<entry
+   name=".classpath"
+   checksum="12b8efef0005c950535535841f080e82"
+   last-author="oscar"
+   text-time="2011-09-14T05:54:31.293000Z"
+   committed-rev="111"
+   kind="file"
+   committed-date="2011-10-14T08:32:36.741000Z"/>
+<entry
+   name=".project"
+   checksum="2fb189d8ce8c41a02ea7fdb945804b42"
+   last-author="oscar"
+   text-time="2011-10-08T10:31:48.363000Z"
+   committed-rev="111"
+   kind="file"
+   committed-date="2011-10-14T08:32:36.741000Z"/>
+<entry
+   name="mysql-connector-java-5.1.17-bin.jar"
+   checksum="f363ecce2d02ebf6224f8fd3925400d9"
+   last-author="oscar"
+   text-time="2011-09-14T05:53:32.762000Z"
+   committed-rev="111"
+   kind="file"
+   committed-date="2011-10-14T08:32:36.741000Z"
+   prop-time="2011-10-14T08:32:40.470000Z"/>
+<entry
+   name="plugin.xml"
+   checksum="fd214df4074e7de1cdb541b5a255fc1f"
+   last-author="oscar"
+   text-time="2011-08-28T15:21:35.063000Z"
+   committed-rev="111"
+   kind="file"
+   committed-date="2011-10-14T08:32:36.741000Z"/>
+<entry
+   name="src"
+   kind="dir"/>
+</wc-entries>

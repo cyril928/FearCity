@@ -1,0 +1,19 @@
+a) via the web panel
+====================
+
+- Open the openfire admin panel (http://localhost:9090)
+- Go to the Plugins page
+- Upload the osw-openfire-plugin.jar file
+- If you check the info log (Server Manager -> Logs -> Info) you should see the message
+  "OneSocialWeb plugin has been loaded"
+
+b) via the command line
+=======================
+
+- Copy the osw-openfire-plugin.jar file to the plugin folder of openfire (typically /var/lib/openfire/plugins)
+- Wait about a minute (the folder is polled at regular intervals)
+- If you check the info log (tail /var/log/openfire/info.log) you should see the message
+  "OneSocialWeb plugin has been loaded"
+
+
+

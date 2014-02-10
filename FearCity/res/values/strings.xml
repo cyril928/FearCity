@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, HelloGoogleMaps!</string>
+    <string name="app_name">Care You</string>
+     <string name="app_url">http://taylor19882002.no-ip.org/FearCity</string> 
+       <string name="Notification">Notification</string>
+         <string name="route_trace">Route Trace</string>
+         
+           
+             <string name="distance_bearing">km away, N</string>
+    <string name="calculating_distance">Calculating distance/bearing...</string>
+         
+     <string name="direction">direct to last point</string>
+    <!-- the above four for the menu items -->
+    <string name="logout">Logout from Server</string>
+   
+    <string name="roster_list">Online Friends</string>
+    <string name="stop_locationing">Stop Skyhook</string>
+    <string name="start_locationing">Start Skyhook</string>
+    
+    <string name="updateMyLocation">Update My Location</string>
+    <string name="clear_account">Clear Account</string>
+  
+ 	<!-- User info -->
+	<string name="user_name">Name</string>
+	<string name="user_phone">Phone</string>
+	<string name="user_email">Email</string>
+	<string name="UserInfo">User Info</string>
+	<string name="UserTracking">User Tracking</string>
+	
+    <!-- menu message-->
+    <string name="clear_account_message">Clear Account Data Will Be Logout</string>
+    <!-- XMPPRosterList -->
+    <string name="title_online_roster">The below list is your online friends</string>
+    
+	<!--QuickAction-->
+ 	<string name="QuickActionGroupDetail">GroupDetail</string>
+ 	<string name="QuickActionCreateGroup">CreateGroup</string>
+   <string name="QuickActionMyGroup">MyGroup</string> 
+   <string name="groupchat">Group Chat</string>
+   <string name="UploadLoc">UploadLoc</string> 
+   <string name="DownloadLoc">DownloadLoc</string> 
+   
+
+	<!-- GroupClockListView -->
+	<string name="add_group">Create a New Group</string>
+
+	<!-- GroupSettingView -->
+	<string name="group_done">Done</string>
+	<string name="group_leave">Leave</string>
+	
+	<!-- CreateGroup -->
+	<string name="group_desription">Description</string>
+	<string name="group_name">Group Name</string>
+	<string name="group_start_time">Start time</string>
+	<string name="group_end_time">End time</string>
+
+	<!-- GroupDetail -->
+	<string name="invite">invite people</string>
+	<string name="GroupInfo">Info</string>
+	<string name="GroupUser">Group User</string>
+	
+	
+
+ 
+	<string name="no">No</string>
+	<string name="yes">Yes</string>
+	<string name="cancel">Cancel</string>
+	<string name="submit">Submit</string>
+	<string name="applyjoinroom">Apply to Join a Room</string>
+	
+	<string name="send">send</string>
+	<string name="call">call</string>
+	<string name="share_location">share location</string>
+	<string name="call_and_share_location">call and share location</string>
+	
+</resources>

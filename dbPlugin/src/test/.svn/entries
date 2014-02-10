@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   repos="https://140.112.29.231/svn/FearCity"
+   revision="116"
+   last-author="oscar"
+   url="https://140.112.29.231/svn/FearCity/branches/dbPlugin/src/test"
+   committed-rev="111"
+   kind="dir"
+   committed-date="2011-10-14T08:32:36.741000Z"/>
+<entry
+   name="org"
+   kind="dir"/>
+</wc-entries>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  	 android:background="@android:color/white"
+  android:layout_height="fill_parent">
+	<ScrollView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="1">
+		<LinearLayout
+			android:orientation="vertical"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent">
+		 
+			
+
+			
+			<LinearLayout
+				android:orientation="vertical"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_margin="10dp">
+ 
+          
+ 
+ 
+				<TextView android:text="@string/group_name" 
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content"
+				  android:textColor="@color/gray"
+				 android:textAppearance="?android:attr/textAppearanceMedium" />
+				
+				 <TextView android:text="11111" 
+				 android:id="@id/group_name" 
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content"
+				  android:textColor="@color/gray"
+				 android:textAppearance="?android:attr/textAppearanceLarge" />
+				
+				<TextView android:text="@string/group_desription" 
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content" 
+				  android:textColor="@color/gray"
+				android:textAppearance="?android:attr/textAppearanceMedium" />
+				
+				<TextView android:id="@id/group_desription" android:text="2222222222222222222222222222222222222222222222222222222" 
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content"
+				  android:textColor="@color/gray" 
+				android:textAppearance="?android:attr/textAppearanceLarge" />
+				
+	 				<LinearLayout
+					android:orientation="vertical"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					>
+				
+						<TextView  
+						android:layout_width="fill_parent" 
+						android:text="@string/group_start_time" 
+						android:layout_height="wrap_content"
+					  android:textColor="@color/gray"
+						android:textAppearance="?android:attr/textAppearanceMedium" />
+						
+	 					<TextView  android:text="11:00" 
+						android:layout_width="fill_parent" 
+						 android:id="@+id/group_start_time" 
+						android:layout_height="wrap_content"
+				  android:textColor="@color/gray"
+					android:textAppearance="?android:attr/textAppearanceLarge" />
+					</LinearLayout>	
+					<LinearLayout
+					android:orientation="vertical"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					>
+					
+						<TextView  
+						android:text="@string/group_end_time" 
+						android:layout_width="fill_parent"
+						   android:textColor="@color/gray"
+						 android:layout_height="wrap_content"
+						 android:textAppearance="?android:attr/textAppearanceMedium" />
+						 
+				 		<TextView  android:id="@+id/group_end_time" android:text="12:00" 
+						android:layout_width="fill_parent" 
+						   android:textColor="@color/gray"
+						android:layout_height="wrap_content"
+					
+						android:textAppearance="?android:attr/textAppearanceLarge" />
+				 </LinearLayout>	
+			</LinearLayout>	
+			
+ 
+	</LinearLayout>
+	</ScrollView>
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center|center_vertical"
+		android:background="@android:drawable/bottom_bar">
+		<Button
+			android:text="@string/invite"
+			android:id="@+id/invite"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			 />
+ 
+	</LinearLayout>
+</LinearLayout>

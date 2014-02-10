@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="https://140.112.29.231/svn/FearCity"
+   name=""
+   revision="116"
+   last-author="oscar"
+   url="https://140.112.29.231/svn/FearCity/branches/dbPlugin/src/test/org/jivesoftware/openfire"
+   committed-rev="111"
+   kind="dir"
+   committed-date="2011-10-14T08:32:36.741000Z"/>
+</wc-entries>

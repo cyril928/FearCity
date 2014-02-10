@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   repos="https://140.112.29.231/svn/FearCity"
+   revision="116"
+   last-author="oscar"
+   uuid="481fef35-9177-485b-8dca-3c79c3f024b9"
+   url="https://140.112.29.231/svn/FearCity/branches/dbPlugin/src/java/org/jivesoftware/openfire/plugin"
+   committed-rev="116"
+   kind="dir"
+   committed-date="2011-11-19T12:27:58.391862Z"/>
+<entry
+   name="CreateGroupHandler.java"
+   checksum="82d21adb31a70812fefa1d2a7b2cecc0"
+   last-author="oscar"
+   committed-rev="116"
+   text-time="2011-11-19T11:45:20.013000Z"
+   kind="file"
+   committed-date="2011-11-19T12:27:58.391000Z"/>
+<entry
+   name="EmergencyCallHandler.java"
+   checksum="4e8be0c09d77d045a61facee25b0acb2"
+   last-author="oscar"
+   text-time="2011-11-10T19:40:02.426000Z"
+   committed-rev="116"
+   kind="file"
+   committed-date="2011-11-19T12:27:58.391000Z"/>
+<entry
+   name="EmergencyCallrecordHandler.java"
+   checksum="4d84222ebe3652446de343fca7fab15a"
+   last-author="oscar"
+   text-time="2011-11-19T04:15:50.426000Z"
+   committed-rev="116"
+   kind="file"
+   committed-date="2011-11-19T12:27:58.391000Z"/>
+<entry
+   name="JoinGroupHandler.java"
+   checksum="eea657b6f4c30e44e8a66c00026eb0f5"
+   last-author="oscar"
+   committed-rev="111"
+   text-time="2011-10-12T07:15:06.562000Z"
+   kind="file"
+   committed-date="2011-10-14T08:32:36.741000Z"/>
+<entry
+   name="LeaveGroupHandler.java"
+   revision="117"
+   checksum="c3c5c14e93d88c1673030c333c8eec20"
+   last-author="oscar"
+   committed-rev="117"
+   text-time="2011-11-19T12:39:32.640000Z"
+   kind="file"
+   committed-date="2011-11-20T17:57:40.993000Z"/>
+<entry
+   name="QueryGroupHandler.java"
+   revision="117"
+   checksum="5d7a1a558a5338fa97e557ee1e5e8e86"
+   last-author="oscar"
+   committed-rev="117"
+   text-time="2011-11-20T13:27:04.400000Z"
+   kind="file"
+   committed-date="2011-11-20T17:57:40.993000Z"/>
+<entry
+   name="QueryGroupMemberHandler.java"
+   checksum="68fb576d9dc54d0e37b1ebdf78ed02bd"
+   last-author="oscar"
+   committed-rev="116"
+   text-time="2011-11-10T17:51:41.559000Z"
+   kind="file"
+   committed-date="2011-11-19T12:27:58.391000Z"/>
+<entry
+   name="QueryGroupMemberLocationHandler.java"
+   revision="117"
+   checksum="d128906f8e2872f3ccc0c8e3b3da6fc3"
+   last-author="oscar"
+   text-time="2011-11-20T13:20:05.601000Z"
+   committed-rev="117"
+   kind="file"
+   committed-date="2011-11-20T17:57:40.993000Z"/>
+<entry
+   name="QueryTracklocationHandler.java"
+   checksum="efc01b91ab02e93c1637f56a7e28132e"
+   last-author="oscar"
+   text-time="2011-11-05T16:10:54.808000Z"
+   committed-rev="116"
+   kind="file"
+   committed-date="2011-11-19T12:27:58.391000Z"/>
+<entry
+   name="dbPlugin.java"
+   checksum="8841d45a6ff87ad18d1fbf70dafd5f54"
+   last-author="oscar"
+   committed-rev="116"
+   text-time="2011-11-03T23:40:54.965000Z"
+   kind="file"
+   committed-date="2011-11-19T12:27:58.391000Z"/>
+<entry
+   name="jdbcmysql.java"
+   checksum="c3d43cd800e7deeb91abbe5c70ca045b"
+   last-author="oscar"
+   text-time="2011-11-19T01:22:04.348000Z"
+   committed-rev="116"
+   kind="file"
+   committed-date="2011-11-19T12:27:58.391000Z"/>
+</wc-entries>

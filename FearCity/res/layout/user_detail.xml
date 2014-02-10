@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+   android:background="@android:color/white"
+   >
+	<ScrollView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="1">
+		<LinearLayout
+			android:orientation="vertical"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent">
+		 
+			
+
+			
+			<LinearLayout
+				android:orientation="vertical"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_margin="10dp">
+ 
+          
+ 
+ 
+				<TextView android:text="@string/user_name" 
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content"
+				            android:textColor="@color/gray" 
+				 android:textAppearance="?android:attr/textAppearanceMedium" />
+				
+				 <TextView 
+				  android:id="@+id/user_name" 
+				 android:text="11111" 
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content"
+				            android:textColor="@color/gray" 
+				 android:textAppearance="?android:attr/textAppearanceMedium" />
+				
+				<TextView android:text="@string/user_phone" 
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content" 
+				            android:textColor="@color/gray" 
+				android:textAppearance="?android:attr/textAppearanceMedium" />
+				
+				<TextView 
+				  android:id="@+id/user_phone" 
+				android:text="2222222222222222222222222222222222222222222222222222222" 
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content" 
+				            android:textColor="@color/gray" 
+				android:textAppearance="?android:attr/textAppearanceMedium" />
+				
+ 
+				
+						<TextView  
+						android:layout_width="fill_parent" 
+						android:text="@string/user_email" 
+						android:layout_height="wrap_content"
+					            android:textColor="@color/gray" 
+						android:textAppearance="?android:attr/textAppearanceMedium" />
+						
+	 					<TextView  android:text="11:00" 
+						android:layout_width="fill_parent" 
+						 android:id="@+id/user_email" 
+						android:layout_height="wrap_content"
+				            android:textColor="@color/gray" 
+					android:textAppearance="?android:attr/textAppearanceMedium" />
+			 
+ 
+			</LinearLayout>	
+			
+ 
+	</LinearLayout>
+	</ScrollView>
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center|center_vertical"
+		android:background="@android:drawable/bottom_bar">
+		<Button
+			android:text="@string/route_trace"
+			android:id="@+id/route"
+			    	android:layout_weight="1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			 />
+ 		<Button
+			android:text="@string/direction"
+			android:id="@+id/direction"
+			    	android:layout_weight="1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			 />
+ 
+	</LinearLayout>
+</LinearLayout>
